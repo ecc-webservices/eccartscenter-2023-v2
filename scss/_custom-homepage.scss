@@ -1,0 +1,429 @@
+/* CSS Document */
+/* Theme: Purple *********************************************/
+
+/*
+.main {
+    position: relative;
+    background: url("..//images/bg-purple-3b-lg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding: 46px 0 60px;
+    background-attachment: fixed;
+		flex: 1 0 auto;
+}*/
+
+/* Tag line  ************************************************/
+#home-page li#home {
+    display: none;
+}
+h2.tag-line {
+	text-align: center;
+	margin-top: 0;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	font-size: 3.5rem;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+	}
+	@media (min-width: 1200px) {
+		h2.tag-line {
+				font-size: 3.5rem !important;
+		}}
+  @media screen and (max-width: 427.98px) {
+		h2.tag-line {
+				font-size: 2rem !important;
+		}}
+.slide-caption > h2 {
+	font-size: 3.5rem !important;
+	font-weight: 300!important;
+}
+h2.tag-line span {
+	color: #C88EEC;
+}
+#parent h3 {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+	margin: 20px;
+	padding: 10px 0 30px
+}
+#parent hr {
+	color: white;
+  opacity: .75; 
+  margin: 0 10px;
+}
+#parent .row.row-cols-2.gx-5.gy-5 {
+	margin-top: -20px;
+}
+
+/* Cards (homepage)  ************************************************/
+.card {
+	border: 1px solid rgba(37, 8, 55, 0.75/*222,226,230,0.3*/)/*none*/;
+	border-radius: 0;
+	text-align: center;
+	background-color:#4b116f!important;
+	color: #fff;
+	text-shadow: none;
+}
+#home-page .card {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.card-image {
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+	max-height: 400px;
+  overflow: hidden;
+}
+.card-image, 
+.card-body {
+	padding: 0!important;
+}
+.card-image img{
+    height: 100%;
+    object-fit: cover !important;
+    width: 100%;
+    object-position: top;
+}
+.card-body p {
+  margin-top: 0;
+	margin-bottom: 0;
+}
+.card-title {
+	margin-bottom: 0;
+}
+.card-title > h5 {
+	margin-bottom: 0;
+}
+#home-page .card-title {
+    padding: 1rem 1rem 0;	
+}
+.card-description_ {
+    padding: 1rem 1rem;	
+}
+/*.card-body {
+	text-align: center;
+}*/
+.card-title {}
+
+.card-description {}
+
+.card-dates_ {
+	margin-top: 0;
+	padding-bottom: 25px; /*25px 0 30px;*/
+	background:rgba(200, 142, 236, 0.25)/*rgba(163, 171, 175, 0.1)*/;
+	/*opacity: .2;*/
+}
+.card-dates_ p {
+	padding-bottom: 5px;
+}
+.card-footer {
+	border-top: none!important;
+	padding-top:1rem;
+}
+.container-cta {
+	clear:both;
+	width: 100%;
+    position: absolute;
+    top: calc(100% - 2.75rem);
+    left: 0;
+	text-align: center;
+}
+
+.card-cta_ a {
+	display: inline-block;
+	min-width: 60%;
+	max-width: 80%;
+	padding: 1em 0;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+p.card-cta_ {
+	margin-top: 1em;
+	padding: 0;
+	font-size: 16px;
+	color: #fff;
+	padding-bottom: 25px;
+}
+/*.container-cta a {
+	display: inline-block;
+    min-width: 60%;
+    max-width: 80%;
+	padding: 10px 0;
+}
+*/
+.card-text:last-child {
+    margin-bottom: 20px;
+}
+.card-img{
+	max-height: 400px;
+	max-width: 250px;
+	height: auto;
+	width: auto;
+	margin-left: auto;  
+	margin-right: auto;  
+	display: block;
+}
+#home-page /* .main */ {
+	background: #531c78;
+}
+
+.night-sky_stars {
+		background-size: cover;		
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-position: inherit;
+		background-attachment: fixed;
+}
+@media only screen and (max-width: 1920.98px) and (min-width: 428px) {
+/*	#home-page .main {
+		position: relative;
+		background: url("https://pxl-elginedu.terminalfour.net/filters:format(webp)/prod01/cdn-pxl-elginedu-prod/media/website/arts-center-site-assets/images/white-stars-desktop-bg-1920-1500.png") repeat 0 0;
+/ *		background: url("https://pxl-elginedu.terminalfour.net/filters:format(webp)/prod01/cdn-pxl-elginedu-prod/media/website/arts-center-site-assets/images/clouds-desktop-bg-1920-1500.jpg") no-repeat center center fixed;* /
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: inherit/ *~center* /;
+		padding: 46px 0 60px;
+		background-attachment: fixed;
+	}*/
+	.night-sky_stars {
+  	background: url("https://pxl-elginedu.terminalfour.net/filters:format(webp)/prod01/cdn-pxl-elginedu-prod/media/website/arts-center-site-assets/images/white-stars-desktop-bg-1920-1500.png") repeat 0 0;
+	}
+}
+
+@media screen and (min-width: 1921px) {
+	#home-page .main  {
+/*    background-image: url("https://pxl-elginedu.terminalfour.net/filters:format(webp)/prod01/cdn-pxl-elginedu-prod/media/website/arts-center-site-assets/images/clouds-hd-bg-2400-18875.jpg")!important;
+		background-size: cover;*/
+  }
+	.night-sky_stars {
+  	background: url("https://pxl-elginedu.terminalfour.net/filters:format(webp)/prod01/cdn-pxl-elginedu-prod/media/website/arts-center-site-assets/images/white-stars-hd-bg-2400-18875.png") repeat 0 0;
+		
+	}
+}
+
+@media screen and (max-width: 427.98px) {
+	#home-page .main  {
+/*    background-image: url("https://pxl-elginedu.terminalfour.net/filters:format(webp)/prod01/cdn-pxl-elginedu-prod/media/website/arts-center-site-assets/images/clouds-mobile-bg-428-334.jpg")!important;
+		background-size: cover;*/
+  }
+	.night-sky_stars {
+  	background: url("https://pxl-elginedu.terminalfour.net/filters:format(webp)/prod01/cdn-pxl-elginedu-prod/media/website/arts-center-site-assets/images/white-stars-mobile-bg-428-334.png") repeat 0 0;
+	}
+}
+	
+@media screen and (max-width: .98px) {
+	#email-sign-up button.btn.btn-.btn-dark.ml-2 {
+    	margin-top: 20px;
+	}
+}
+#home-page .sr-only{
+	border: 0;
+  clip: rect(0,0,0,0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+#home-page main.main {
+	padding-top: 120px!important;
+}
+#home-page main.main .container.pt-5 {
+	padding: 4rem 0!important;
+}
+
+.col-12.col-md-6:nth-child(odd) {
+	padding-left:20%;
+}
+.col-12.col-md-6:nth-child(2n) {
+	padding-right:20%;
+}
+.col-12.col-md-6:nth-of-type(3),
+.col-12.col-md-6:nth-of-type(4) {
+    padding-top: 40px;
+}
+@media screen and (max-width: 1199px) {
+	.col-12.col-md-6:nth-child(odd) {
+		padding-left:10%;
+	}
+	.col-12.col-md-6:nth-child(2n) {
+		padding-right:10%;
+}}
+
+@media screen and (max-width: 767px){
+	.col-12.col-md-6:nth-child(odd) {
+		padding:0 5%;
+	}
+	.col-12.col-md-6:nth-child(2n) {
+		padding:0 5%;
+}}
+@media screen and (min-width: 576px) {
+	.card-group > .card {
+  	flex: 1 0 0%;
+   	margin-bottom: 0;
+}}
+/* /Cards ******************************************************/
+
+/*Twinkle stars background *************************************/
+.format-container {
+  width: 1142px;
+  margin: 0 auto;
+	position: relative;
+}
+
+
+html,
+body,
+.night-sky-block {
+  height: 100%;
+}
+
+.night-sky-block {
+  background-color: #531c78;
+
+  z-index: 1;
+  position: relative;
+}
+.night-sky_sky {
+  height: 87%;
+
+  z-index: -5;
+}
+.night-sky_sky,
+.night-sky_stars,
+.night-sky_twinkling {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.night-sky_stars,
+.night-sky_twinkling {
+  display: block;
+  height: 1700px;
+  right: 0;
+  bottom: 0;
+}
+/*.night-sky_stars {
+  background: url("https://pxl-elginedu.terminalfour.net/prod01/cdn-pxl-elginedu-prod/media/website/arts-center-site-assets/images/stars.png") repeat 0 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: inherit;
+	padding: 46px 0 60px;
+	background-attachment: fixed;
+}*/
+.night-sky_twinkling {
+  background: url("https://pxl-elginedu.terminalfour.net/filters:format(webp)/prod01/cdn-pxl-elginedu-prod/media/website/arts-center-site-assets/images/twinkling-c3.png") repeat 0 0;
+  -webkit-animation: an-twinkling 200s linear infinite;
+  -moz-animation: an-twinkling 200s linear infinite;
+  -o-animation: an-twinkling 200s linear infinite;
+  animation: an-twinkling 200s linear infinite;
+}
+
+@-webkit-keyframes an-twinkling {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-moz-keyframes an-twinkling {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-o-keyframes an-twinkling {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@keyframes an-twinkling {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@-webkit-keyframes an-clouds {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+@-moz-keyframes an-clouds {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+@-o-keyframes an-clouds {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+@keyframes an-clouds {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .format-container {
+    width: 96%;
+  }
+
+  .night-sky_palm-2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .format-container {
+    width: 960px;
+  }
+}
+/* /Twinkle stars background ***********************************/

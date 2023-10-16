@@ -1,0 +1,246 @@
+/* CSS Document */
+
+
+/* Interior page *********************************************/
+/*#navbar .active a{
+	color: $white !important;
+}*/
+#interior-page main p a:hover,
+#interior-page main p a:focus,
+#interior-page main h3 a:hover,
+#interior-page main h3 a:focus,
+#interior-page main h4 a:hover,
+#interior-page main h4 a:focus,
+#interior-page main li a:hover,
+#interior-page main li a:focus   {
+  color: #666666/*#333*/ !important;
+  text-decoration: none;
+	border-bottom: 1px dashed #666666;
+	/*background: #f2deff;*/	
+}
+#interior > .hero-container {
+    position: relative;
+    padding-top: 3.125rem !important;
+}
+/* [Custom header for interior pages] */
+#interior-page header {
+	background: #531c78/*~#250837/*#160521*/;
+}
+.subnav-border {
+	border-bottom: 60px solid #ebebeb;}
+  @media (max-width: 991.98px) {
+    .subnav-border {
+      border-bottom: none!important; } }
+
+#interior-page main {
+	background: #EBEBEB;/*lightgray; need to adjust in master */
+	padding-bottom: 25px;
+}
+
+#interior-page main p { /* has to come after l:24 if _custom-global.scss aka bootstrap-master.5.1.3.scss*/
+	color: var(--bs-body-color); }
+  @media screen and (max-width: 427.98px) {
+		body, .main p {
+			font-size: 0.875rem !important; } }
+
+/* [/Custom header for interior pages] */
+
+main > .container.hero-image {
+	padding-top: 15px;
+}
+#interior-page main {
+    background: #fff;
+}
+.hero-container {
+    position: relative;
+		/*background:  teal;*/
+}
+.hero-container > .col-container {
+		background: #ebebeb;
+		min-height: 84px;
+}
+#interior.container {
+	max-width: 100%; padding:0; /*background: #ebebeb/*rgba(100, 100, 100, 0.5);*/
+}
+
+.col-container:not(.col-full-width) { /*.grid-block:not(.grid-block-full-width)*/
+    position: relative;
+}
+
+
+#interior .container { /*.gc-page-hero-container > .grid-container > .grid-block */
+    background: #fff;
+}
+
+#interior .container.interior {
+    margin-top: 80px;
+	padding-top: 15px;
+}
+
+#interior .col-full-width { /*.grid-full-width*/
+	 width: 100%;
+	position: relative;
+    top: 60px;
+}
+
+#interior .container.hero { 
+	margin: 33px auto;
+}
+
+#interior img.hero-image { /*.gc-page-hero-image*/
+	display: block;
+  	width: 100%;
+  	height: auto;
+}
+
+#interior-page .interior .col-lg-8.col-md-12 {
+	padding-top: 0/*5px*/;
+	padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+
+#interior-page .interior .col-lg-4.col-md-12 {
+    padding-right: 0;
+}
+
+#interior-page .interior .sidebar	 {
+    padding: 30px;
+}
+
+#interior-page .container.interior > .row {
+ 	margin:auto 0;
+}
+
+@media (max-width: 991.98px) {
+
+}
+@media screen and (max-width: 1634px) {
+	.interior .col-lg-8.col-md-12 {
+    padding-left: 10px;
+	}
+
+	.interior .col-lg-4.col-md-12 {
+			padding-right: 10px;
+	}
+}
+
+@media screen and (max-width: 991.98px) {
+	#interior-page .main {	
+		padding: 110px 0 0;
+	}
+	ul#subnav {
+		flex-direction: column
+	}
+	#interior.container,
+	.hero-image { 
+		margin-top: 0;
+		padding-top: 0; 
+	}
+	#interior.container .col-container {
+		maring-top: 0!important;
+		padding-top: 0;
+	}
+	#interior .container.hero {
+		padding-top: 0.625rem;
+	}
+	#interior .col-full-width {
+    top: 0px;
+	}
+	.interior .col-lg-4.col-md-12 {
+    padding-right: 0;
+		padding-left: 5px;
+	}
+	#interior-page .main > .container.interior {
+		margin-top: 0;
+	}
+	#interior > .hero-container { 
+		/*padding-top: 0.125rem !important;*/
+		display:none;
+	}
+}
+
+@media (min-width: 992px) {/*64.01em) { /*max-width: 1024px*/
+	#interior.container .col-container { /*.gc-page-hero-container .grid-block*/ 
+			/*max-width: 86.25rem;*/
+			margin: -13px auto;
+			padding: 30px 0.625rem 0;
+	}
+	#interior.container,
+	.hero-image { 
+		margin-top: 0rem;
+		padding-top: 0.625rem; 
+	}
+/* used as a proof of concept, will be instead implemented via JS ****************
+	#interior-page header:has(.nav.subnav.show) {
+    border-bottom: 60px solid #cecece!important;
+	}
+*/
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+//Styles from offcanvas-interior
+.col-lg-4.col-md-12 .sidebar {
+  /*background: red;*/
+  /*padding: 20px 20px 20px 30px!important;*/
+	padding: 20px !important;
+	margin-top: var(--bs-gutter-y, 0.25rem);
+}
+.interior .sidebar {
+	background: #ebebeb !important	;
+}
+.interior .sidebar h3 {	
+	font-size: 1.25rem !important;
+  line-height: 1.44444 !important;
+}
+
+/* Cards ************************************************/
+//Card style for event cards on buy now and evnts page 
+#interior-page .event-container .event-card {
+  background: white !important;
+  border: 1px solid #ebebeb !important;
+  border-radius: 0 !important;
+  text-shadow: none !important;
+  color: black;
+}
+
+#interior-page .card-title {
+	color: #8322C0;
+	padding: 0 1rem;
+}
+#interior-page section .card-title {
+	padding-top: 1rem
+}
+#interior-page .card-body {
+	text-align: left;
+	padding: 0!important;
+}
+#interior-page .card > div {
+    float: left;
+    text-align: left;
+}
+.card > div > .btn-dark.mb-3 {
+    margin-left: 1rem;
+}
+/*#interior-page a.btn.btn-dark.mb-3 {
+    float: left;
+    margin-left: 1rem;
+}*/
+/*
+@media (max-width: 767.98px) {
+	#interior-page .card-body {
+    text-align: center!important;
+	}
+}
+*/
+
+/* Data Tables *******************************************/
+#table-container-table a {
+    padding: 5px;
+}
+#table-container-table a:hover,
+#table-container-table a:focus {
+    background: #e1e3f2 !important;
+}
